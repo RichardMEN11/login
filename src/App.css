@@ -1,0 +1,17 @@
+.App {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  margin-top: 10%; 
+}
+
+h2 {
+  color: #5B8DDC;
+  font-size: 3em;
+}
+
+p{
+  color: #A6A5A6;
+  width: 20%;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}

@@ -1,0 +1,54 @@
+form{
+    display: inline-block;
+    width: 20em;
+}
+
+input, label, a{
+    float: left;
+}
+
+input{
+    padding-left: 10px;
+    font-weight: 200;
+    font-size: 1em;
+}
+
+input[type="text"],input[type="password"]{
+    width: 100%;
+    background: #F2F1F2;
+    border-radius: 0.3em;
+    border: none;
+    height: 3em;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="submit"]:focus {
+    outline: none;
+}
+
+input[type="submit"]{
+    width: 50%;
+    background: #5B8DDC;
+    border-radius: 2em;
+    border: none;
+    height: 2.5em;
+    color: #fff;
+    margin-top: 2em;
+    transition: all .07s ease;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background: rgb(100, 155, 243);
+    transform: scale(1.05);
+}
+
+input[name="E-Mail-Adress"],input[name="Name"]{
+   margin-bottom: 1em;
+
+}
+
+label{
+    color: #BCC3CF;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+}
